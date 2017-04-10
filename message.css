@@ -1,6 +1,6 @@
 div#header-message {
     color: #fff;
-    background-color: #336600;
+    background-color: #003366;
     border: 1px solid transparent;
     border-color: #111;
 	box-sizing: border-box;
@@ -8,7 +8,7 @@ div#header-message {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    margin: 0 -50px 20px -50px;
+    margin: 0 -50px 0 -50px;
     padding: 10px 60px 10px 60px;
 	text-align: center;
 }

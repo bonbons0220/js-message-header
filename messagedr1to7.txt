@@ -1,3 +1,3 @@
 <div id="header-message">
-This is Data Release <span id="drnumber"></span>. Go to the latest <a href="http://skyserver.sdss.org/public/" style="font-style:inherit;">Data Release</a>.
+This is Data Release <span id="drnumber">?</span>. Go to the latest <a href="http://skyserver.sdss.org/public/" style="font-style:inherit;">Data Release</a>.
 </div>
