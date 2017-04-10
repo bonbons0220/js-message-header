@@ -1,0 +1,26 @@
+div#header-message {
+    color: #fff;
+    background-color: #336600;
+    border: 1px solid transparent;
+    border-color: #111;
+	box-sizing: border-box;
+	display: block;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin: 0 -50px 20px -50px;
+    padding: 10px 60px 10px 60px;
+	text-align: center;
+}
+div#header-message>a {
+    color: #99ccff;
+	font-style: inherit;
+    text-decoration: none;
+    background-color: transparent;
+}
+div#header-message>a:hover {
+    color: #6699cc;
+    text-decoration: underline;
+}
+div#header-message>a:hover{
+}

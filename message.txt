@@ -1,2 +1,1 @@
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<div id="firstdiv" class="alert">This is a Message.</div>
+<div class="alert alert-primary">This is Data Release <span id="drnumber"></span>. Go to the latest: <a href="http://skyserver.sdss.org/public/" style="font-style:inherit;">data release</a>.</p></div>
