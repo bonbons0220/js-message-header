@@ -1,33 +1,50 @@
-div#header-message.no-margin {
-    margin: 0;
+body {
+	margin-top:0;
+}
+.no-margin {
+	margin:0 !important;
 }
 div#header-message {
     color: #fff;
     background-color: #003366;
-    border: 1px solid transparent;
+    border: 0;
     border-color: #111;
 	box-sizing: border-box;
-	display: block;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
-    line-height: 1.42857143;
-    margin: 0 -50px 0 -50px;
-    padding: 10px 60px 10px 60px;
+    margin: 0 -50px;
+    padding: 0;
 	text-align: center;
 	height:50px;
 }
-div#header-message>a {
+div#header-message .message-logo {
+    float:left;
+	max-width: 25%;
+	padding: 0;
+	margin:0;
+}
+div#header-message .message-logo img {
+	max-height:	40px;
+	padding: 0;
+	margin:5px 20px 5px 60px;
+}
+div#header-message .message-content {
+	max-width:50%;
+	padding: 20px 25%;
+}
+div#header-message a {
     color: #99ccff;
 	font-style: inherit;
     text-decoration: none;
     background-color: transparent;
 }
-div#header-message>a:hover {
+div#header-message a:hover {
     color: #6699cc;
     text-decoration: underline;
 }
-div#header-message>a:hover{
-}
-body.no-margin {
-	margin:0;
+div#header-message .message-login {
+    float:right;
+	max-width:	25%;
+	padding: 20px;
+	margin:0 60px 0 10px;
 }

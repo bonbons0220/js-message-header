@@ -1,12 +1,5 @@
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="//www.sciserver.org/messages/message.css">
-</head>
-<body class="no-margin message-frame">
-
-<div id="header-message" class="no-margin">
+<div id="header-message" >
 <div class="message-logo"><a href="//www.sciserver.org" target="_blank"><img src="//www.sciserver.org/messages/sciserverlogo.png" /></a></div>
 <div class="message-login"><a href="//www.sciserver.org/Support" target="_blank">Support</a> | <a id="#header-login-link" href="//portal.sciserver.org/login-portal/Account/Login" target="_blank">Login</a></div>
 <div class="message-content">&nbsp;</div>
 </div>
-</body></html>
