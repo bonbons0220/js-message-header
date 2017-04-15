@@ -1,0 +1,26 @@
+<HTML>
+<TITLE>SkyServer Schema Browser</TITLE>
+<SCRIPT LANGUAGE="JavaScript1.2">
+<!--
+    NS4 = document.layers;
+    if (NS4) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+    }
+    function reDo() {
+        if (innerWidth != origWidth || innerHeight != origHeight) 
+            location.reload();
+        }
+    if (NS4) onresize = reDo;
+//-->
+</SCRIPT>
+<script type='text/javascript' src='http://www.sciserver.org/messages/message.js'></script>
+
+<FRAMESET ROWS="160,*" BORDER=0 FRAMEBORDER=0 ID="frameset1">
+  <FRAME NAME='BHEADER' SRC='http://skyserver.sdss.org/dr7/en/help/browser/bheader.asp'>
+  <FRAMESET COLS="220,*">
+      <FRAME NAME='DBINFO' SRC='http://skyserver.sdss.org/dr7/en/help/browser/dbinfo.asp?i=0'>
+      <FRAME NAME='DESCR' SRC='http://skyserver.sdss.org/dr7/en/help/browser/description.asp?n=NULL&t=NULL'>
+  </FRAMESET>
+</FRAMESET>
+</HTML>
