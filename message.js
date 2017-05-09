@@ -100,7 +100,7 @@ function postprocess(){
 	// MOVE ANY ABSOLUTE POSITIONED ELEMENTS DOWN THE HEIGHT AND TOP + BOTTOM MARGINS
 	var y = $($('div#header-message')[0]).outerHeight();
 	var el = $('*').filter(function(){
-	   return ( $(this).css('position') === 'absolute' ) || ( $(this).css('POSITION') === 'absolute' );
+	   return ( $(this).css('position') === 'absolute' ) || ( $(this).css('POSITION') === 'absolute' )|| ( $(this).css('position') === 'ABSOLUTE' )|| ( $(this).css('POSITION') === 'ABSOLUTE' );
 	});
 	$(el).each (function () {
 		$(this).css( {top: parseInt( $(this).css('top') ) + y + 'px' } );
